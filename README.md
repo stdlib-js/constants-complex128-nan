@@ -124,6 +124,14 @@ im = imag( v );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/constants-complex64/nan`][@stdlib/constants/complex64/nan]</span><span class="delimiter">: </span><span class="description">canonical single-precision complex floating-point NaN.</span>
+
+</section>
+
 <!-- /.related -->
 
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
@@ -194,6 +202,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/constants-complex128-nan/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-complex128-nan/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/constants/complex64/nan]: https://github.com/stdlib-js/constants-complex64-nan
+
+<!-- </related-links> -->
 
 </section>
 
