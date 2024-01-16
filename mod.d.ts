@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,35 +16,22 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-/**
-* Canonical double-precision complex floating-point zero.
-*
-* @module @stdlib/constants-complex128-nan
-* @type {Complex128}
-*
-* @example
-* var COMPLEX128_NAN = require( '@stdlib/constants-complex128-nan' );
-* // returns <Complex128>
-*/
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-// MODULES //
-
-var Complex128 = require( '@stdlib/complex-float64' );
-
-
-// MAIN //
+import { Complex128 } from '@stdlib/types/complex';
 
 /**
 * Canonical double-precision complex floating-point NaN.
 *
-* @constant
-* @type {Complex128}
+* @example
+* var nan = COMPLEX128_NAN;
+* // returns <Complex128>
 */
-var COMPLEX128_NAN = new Complex128( NaN, NaN );
+declare const COMPLEX128_NAN: Complex128;
 
 
 // EXPORTS //
 
-module.exports = COMPLEX128_NAN;
+export = COMPLEX128_NAN;
