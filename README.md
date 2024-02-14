@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import COMPLEX128_NAN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-nan@deno/mod.js';
+import COMPLEX128_NAN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-nan@v0.2.0-deno/mod.js';
 ```
 
 #### COMPLEX128_NAN
@@ -74,7 +74,7 @@ var im = imag( COMPLEX128_NAN );
 import real from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-real@deno/mod.js';
 import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imag@deno/mod.js';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@deno/mod.js';
-import COMPLEX128_NAN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-nan@deno/mod.js';
+import COMPLEX128_NAN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex128-nan@v0.2.0-deno/mod.js';
 
 var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0 ] );
 // returns <Complex128Array>
