@@ -16,13 +16,22 @@
 * limitations under the License.
 */
 
-import COMPLEX128_NAN = require( './index' );
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Complex128 } from '@stdlib/types/complex';
+
+/**
+* Canonical double-precision complex floating-point NaN.
+*
+* @example
+* var nan = COMPLEX128_NAN;
+* // returns <Complex128>
+*/
+declare const COMPLEX128_NAN: Complex128;
 
 
-// TESTS //
+// EXPORTS //
 
-// The export is a complex number...
-{
-	// eslint-disable-next-line @typescript-eslint/no-unused-expressions
-	COMPLEX128_NAN; // $ExpectType Complex128
-}
+export = COMPLEX128_NAN;
